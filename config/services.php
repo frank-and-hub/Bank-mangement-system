@@ -24,6 +24,9 @@ return [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
+    /**
+     * secret key is just 8sqQr0GUljcyyHe53dULR/iav9LFwW1l+/ZorXAK
+     */
     'ses' => [
         'key' => env('AWS_ACCESS_KEY_ID', 'AKIAWVPDMSFIJMFXCMEM'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
